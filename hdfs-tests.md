@@ -9,3 +9,12 @@ sys	0m9.974s
 
 
 TeraSort - hadoop jar hadoop-*examples*.jar terasort /user/hduser/terasort-input /user/hduser/terasort-output
+
+
+"
+
+real	6m8.739s
+user	6m10.603s
+sys	1m3.256s
+
+"
