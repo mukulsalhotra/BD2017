@@ -19,27 +19,20 @@ Mount Variables -
 NameNode:
 
 ```
-[mukulsalhotra@ip-10-0-0-8 root]$ ssm list
-
-Root privileges required to run this script!
-
-[mukulsalhotra@ip-10-0-0-8 root]$ sudo ssm list
-----------------------------------
-Device          Total  Mount point  
-----------------------------------
-/dev/xvda   200.00 GB  PARTITIONED  
-/dev/xvda1  200.00 GB  /            
-----------------------------------
----------------------------------------------------------------------
-Volume      Volume size  FS     FS size       Free  TypeMount point  
----------------------------------------------------------------------
-/dev/xvda1    200.00 GB  xfs  199.99 GB  198.99 GB  part/            
----------------------------------------------------------------------
+[mukulsalhotra@ip-172-31-17-133 ~]$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda1      100G  943M  100G   1% /
+devtmpfs        3.9G     0  3.9G   0% /dev
+tmpfs           3.7G     0  3.7G   0% /dev/shm
+tmpfs           3.7G   17M  3.7G   1% /run
+tmpfs           3.7G     0  3.7G   0% /sys/fs/cgroup
+tmpfs           757M     0  757M   0% /run/user/0
+tmpfs           757M     0  757M   0% /run/user/1000
 ```
 
 Firewall :
 ```
-[mukulsalhotra@ip-10-0-0-8 root]$ systemctl status firewalld
+	[mukulsalhotra@ip-10-0-0-8 root]$ systemctl status firewalld
 ● firewalld.service - firewalld - dynamic firewall daemon
    Loaded: loaded (/usr/lib/systemd/system/firewalld.service; disabled; vendor preset: enabled)
    Active: inactive (dead)
