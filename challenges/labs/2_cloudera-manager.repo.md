@@ -1,5 +1,6 @@
 ## Challenges Setup
-# CM Installation:
+### Part 2 
+#### CM Installation:
 
 ### 2_cloudera-manager.repo.md
 

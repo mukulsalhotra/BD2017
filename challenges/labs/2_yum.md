@@ -1,7 +1,8 @@
 ## Challenges Setup
-# CM Installation:
+### Part 2
+#### CM Installation:
 
-### ls /etc/yum.repos.d
+##### ls /etc/yum.repos.d
 
 
 ```

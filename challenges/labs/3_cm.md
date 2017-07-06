@@ -1,5 +1,6 @@
 ## Challenges Setup
-# CDH Installation:
+#### Part 3
+#### CDH Installation:
 
 ### hdfs dfs -ls /user
 

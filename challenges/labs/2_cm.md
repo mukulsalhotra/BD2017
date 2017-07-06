@@ -1,7 +1,8 @@
 ## Challenges Setup
-# Configure Cloudera Manager:
+### Part 2
+##### Configure Cloudera Manager:
 
-### scm_prepare_database.sh
+`scm_prepare_database.sh`
 
 
 ```

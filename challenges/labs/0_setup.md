@@ -1,5 +1,5 @@
 ## Challenges Setup
-# Part 1:
+
 ## User Creation
 
 ### Users created : 

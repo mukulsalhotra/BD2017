@@ -1,5 +1,6 @@
 ## Challenges Setup
-# Cloudera Manager server:
+#### Part 2
+##### Cloudera Manager server:
 
 ### db.properties file
 

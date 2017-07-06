@@ -1,8 +1,7 @@
 ## Challenges Setup
-# Part 2:
+# Part 1:
 ## MYSQL Installation
 
-### Users created : 
 
 mysql-community-source.repo 
 
